@@ -199,7 +199,7 @@
     </head>
 
     <body>
-   
+        @include('site.layout._partials.menu')
         @yield('content')
    <!--footer-->
     </body>
